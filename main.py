@@ -34,7 +34,7 @@ def main():
         packet = build_packet(cmd, payload)
 
         # 傳送封包
-        print(f"Sending: {packet.hex()}")
+        # print(f"Sending: {packet.hex()}")
         ser.write(packet)
     
     print(f"program exit!")
